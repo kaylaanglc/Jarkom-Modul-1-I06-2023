@@ -25,11 +25,14 @@ User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya
   - For question D, the answer is found in the `Acknowledgment Number (raw)`, which is 258040696.
 
 ### Screenshot:
+![ss1_1](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/6bef4c96-cf7b-47c5-ab64-baeafdd4d2c0)
+![ss1_2](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/68fe965d-290d-4a81-bfdc-887034983aaf)
 
 ### Answer:
+![jwbn1](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/bd682d2d-91fb-497f-846a-d831838d1eab)
 
 ### Obstacle(s) encountered:
-
+None
 
 ## Question #2
 ```
@@ -42,11 +45,13 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 - The answer will be the name of `Server:` which is `gunicorn`
 
 ### Screenshot:
+![ss2](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/93d2dd86-a014-4453-9289-9f1dfd8d029b)
 
 ### Answer:
+![jwbn2](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/143a758e-0024-45b5-bb98-034b7930a449)
 
 ### Obstacle(s) encountered:
-
+None
 
 ## Question #3
 ```
@@ -61,13 +66,13 @@ Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal be
 - The answer for a. and b. will be on the list.
 
 ### Screenshot:
+<img width="452" alt="ss3" src="https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/a45a34be-2cdf-4eac-b145-ba6d71f6b049">
 
 ### Answer: 
-- a. 21
-- b. UDP
+![jwbn3](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/e9574e18-bc65-4021-9b82-702e65b7ea5f)
 
 ### Obstacle(s) encountered:
-
+None
 
 ## Question #4
 ```
@@ -80,11 +85,13 @@ Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 - The answer will be the `Checksum:` value, which is `0x18e5`
   
 ### Screenshot:
+![ss4](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/d0c0de53-c7fc-4cc1-a709-6e51cbb5047f)
 
 ### Answer:
+![jwbn4](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/8534d423-c6ba-4f95-b550-847e97124ac2)
 
 ### Obstacle(s) encountered:
-
+None
 
 ## Question #5
 ```
@@ -105,13 +112,15 @@ For this question, the Netcat command is not given. The following are the steps 
   - For question C, public IPs are the one other than 10.0.0.0 — 10.255.255.255, 172.16.0.0 — 172.31.255.255, 192.168.0.0 — 192.168.255.255, which means that the answer will be `74.53.140.153`.
   
 ### Screenshot:
+![ss5](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/d610790f-b589-467e-8ad8-ffc33c2a3dcf)
 
 ### Answer:
+![jwbn5](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/0de3dae5-869b-4345-810c-b59099a6f682)
 
 ### Obstacle(s) encountered:
 Finding the values for the password
 
-## Question #6
+## Question #6 (REVISI)
 ```
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 ```
@@ -121,8 +130,10 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 - Take note of the IP Source and decrypt that using substitution cipher. We used the website `https://www.dcode.fr/letter-number-cipher` to decrypt and the answer will be the result of the decryption which only consists of A-R, 1-18 and a total of 6 letters: `JDRNJA`
   
 ### Screenshot:
+![ss6](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/d7cf91da-c0b3-4679-a9eb-802403a04f68)
 
 ### Answer:
+![jwbn6](https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/981df7fe-fb13-4fbf-8ef1-0d28891ea218)
 
 ### Obstacle(s) encountered:
 Finding which values to decrypt
@@ -137,16 +148,17 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
 - Then, count the number of packets displayed.
   
 ### Screenshot:
+<img width="452" alt="ss7" src="https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/ad5c2256-8557-4bb1-b2c0-7e51c42b860c">
 
 ### Answer:
-- 6
+`6`
 
 ### Obstacle(s) encountered:
+None
 
 ## Question #8
 ```
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
-
 ```
 
 ### Solution:
@@ -154,11 +166,13 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 - This filter will capture all packets going to port 80, with TCP and UDP protocols. If there is more than one port 80, the packets will be sorted in alphabetical order.
   
 ### Screenshot:
+<img width="452" alt="ss8" src="https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/1eff41fb-5f8e-45da-87f3-0d9c7a09c7ad">
 
 ### Answer:
-- `tcp.dstport == 80 || udp.dstport == 80`
+`tcp.dstport == 80 || udp.dstport == 80`
 
 ### Obstacle(s) encountered:
+None
 
 ## Question #9
 ```
@@ -170,11 +184,13 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 - This filter filters packets that meet the conditions must come from IP address `10.51.40.1 (ip.src == 10.51.40.1)` and must not go to IP address `10.39.55.34` (`ip.dst != 10.39.55.34`).
   
 ### Screenshot:
+<img width="452" alt="ss9" src="https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/0e701eba-0fa4-440c-bfaf-d2f5eebe1df0">
 
 ### Answer:
-- `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`
+`ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`
 
 ### Obstacle(s) encountered:
+None
 
 ## Question #10
 ```
@@ -188,12 +204,13 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet.
 - As a result, you will be able to find the correct login information.
 
 ### Screenshot:
+<img width="452" alt="ss10" src="https://github.com/kaylaanglc/Jarkom-Modul-1-I06-2023/assets/116704203/624351af-dab1-41a4-807e-c544be6caf22">
 
 ### Answer:
-- dhafin:kesayangannyak0k0
+`dhafin:kesayangannyak0k0`
 
 ### Obstacle(s) encountered:
-
+None
 
 
 
