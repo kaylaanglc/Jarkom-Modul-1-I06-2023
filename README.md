@@ -49,12 +49,22 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
 
 ## Question #3
+```
+Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
+- a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
+- b. Protokol layer transport apa yang digunakan?
+```
 
 ### Solution:
+- Apply the filter `ip.addr == 239.255.255.250 and udp.port == 3702.`
+- You can see how many packets and see what protocol were captured with the source and destination IP addresses being 239.255.255.250 with port 3702.
+- The answer for a. and b. will be on the list.
 
 ### Screenshot:
 
-### Answer:
+### Answer: 
+- a. 21
+- b. UDP
 
 ### Obstacle(s) encountered:
 
@@ -116,6 +126,73 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 
 ### Obstacle(s) encountered:
 Finding which values to decrypt
+
+## Question #7
+```
+Berapa jumlah packet yang menuju IP 184.87.193.88?
+```
+
+### Solution:
+- To search for packets going to the IP address `184.87.193.88`, use the filter expression `ip.dst == 184.87.193.88` which limits the display to only show packets going to the IP address `184.87.193.88`.
+- Then, count the number of packets displayed.
+  
+### Screenshot:
+
+### Answer:
+- 6
+
+### Obstacle(s) encountered:
+
+## Question #8
+```
+Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
+
+```
+
+### Solution:
+- The filter used to retrieve all protocol packets going to port 80 is `tcp.dstport == 80 || udp.dstport == 80`.
+- This filter will capture all packets going to port 80, with TCP and UDP protocols. If there is more than one port 80, the packets will be sorted in alphabetical order.
+  
+### Screenshot:
+
+### Answer:
+- `tcp.dstport == 80 || udp.dstport == 80`
+
+### Obstacle(s) encountered:
+
+## Question #9
+```
+Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+```
+
+### Solution:
+- The filter that will be used to take packets originating from address 10.51.40.1 but not going to address `10.39.55.34 ` is `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`.
+- This filter filters packets that meet the conditions must come from IP address `10.51.40.1 (ip.src == 10.51.40.1)` and must not go to IP address `10.39.55.34` (`ip.dst != 10.39.55.34`).
+  
+### Screenshot:
+
+### Answer:
+- `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`
+
+### Obstacle(s) encountered:
+
+## Question #10
+```
+Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet.
+```
+
+### Solution:
+- The initial step that needs to be taken is to apply a filter or query to filter packets related to the Telnet protocol. The filter used is `tcp.stream eq 15`.
+- After that, slide the display down until you reach the very end, assuming the user is connected in the bottom frame.
+- Once you get to the end, continue by selecting the option that allows you to follow the data flow in the TCP protocol used in this Telnet connection.
+- As a result, you will be able to find the correct login information.
+
+### Screenshot:
+
+### Answer:
+- dhafin:kesayangannyak0k0
+
+### Obstacle(s) encountered:
 
 
 
